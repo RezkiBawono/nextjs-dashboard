@@ -8,6 +8,7 @@ import {
   LatestInvoicesSkeleton,
   RevenueChartSkeleton,
 } from '@/app/ui/skeletons';
+import Search from '@/app/ui/search';
 
 export default async function Page() {
   const cardData = await fetchCardData();
