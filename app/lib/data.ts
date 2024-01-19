@@ -11,6 +11,7 @@ import {
 
 import { formatCurrency } from './utils';
 import { unstable_noStore as noStore } from 'next/cache'; // used for fetching real time data from database
+import { log } from 'console';
 
 export async function fetchRevenue() {
   // Add noStore() here prevent the response from being cached.
