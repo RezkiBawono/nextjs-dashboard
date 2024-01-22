@@ -21,7 +21,7 @@ const FormSchema = z.object({
 
 export type State = {
   errors?: {
-    customer?: string[];
+    customerId?: string[];
     amount?: string[];
     status?: string[];
   };
